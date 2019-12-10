@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SUBJECT STUDENT DETAILS</title>
+</head>
+<body>
+<form action='week81' method='post'>UserName:
+<input type='text' name='name'><br>
+Password:
+<input type='password' name='pass'>
+<br>
+RePassword:
+<input type='password' name='repass'>
+<br>
+<input type='submit' value='Submit'>
+</form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Coders' Hospital</title>
+</head>
+<body>
+<h1>Welcome to CODERS' HOSPITAL</h1>
+<br>
+<form>
+ Enter patient's id:
+ <input type='text' name='id'>
+ <input type='submit' value='GO'>
+</form>
+<br>
+ In case the patient is not registered, you can register here.
+<br>
+<form>
+ <input type='submit' value='NEW REGISTRATION'>
+</form>
+</body>
+</html>

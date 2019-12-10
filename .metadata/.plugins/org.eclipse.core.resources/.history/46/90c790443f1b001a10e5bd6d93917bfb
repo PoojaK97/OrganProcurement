@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to CODERS' HOSPITAL</title>
+</head>
+<body>
+<form>
+ Enter patient's id:
+ <input type='text' name='id'>
+ <input type='submit' value='submit'>
+</form>
+ OR
+<form>
+ <input type='submit' value='submit'>
+</form>
+</body>
+</html>

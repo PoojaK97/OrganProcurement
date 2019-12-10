@@ -1131,3 +1131,6 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-10 18:17:25.496
 !MESSAGE executing callback sts4.classpath.HlojJggH SUCCESS [done]
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2019-12-10 19:07:47.498
+!MESSAGE The Tomcat server configuration at \Servers\Tomcat v9.0 Server at localhost-config is missing. Check the server for errors.

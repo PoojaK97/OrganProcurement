@@ -24,8 +24,8 @@ public class PDetails extends HttpServlet {
 			rs.last();
 			int size = rs.getRow();
 			if (size>0) {
-				//Forward to Registration Page
-				pw.println("ID Found: "+id);
+				//pw.println("ID Found: "+id);
+				response.sendRedirect("registration.html");  
 			}
 			else {
 				//Print the message below using include.

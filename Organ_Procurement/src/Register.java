@@ -51,6 +51,7 @@ public class Register extends HttpServlet {
 			pstmt.setString(9, blood);
 			pstmt.setString(10, emer);
 			pstmt.execute();
+			response.sendRedirect("PatientBio.html");  
 		}catch(ClassNotFoundException e) {e.printStackTrace();}
 		catch(SQLException e) {e.printStackTrace();}
 		catch (Exception e) {e.printStackTrace();}

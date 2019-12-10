@@ -59,6 +59,7 @@ public class PBio extends HttpServlet {
 			pstmt.setString(4, bloodp);
 			pstmt.setInt(5, 2131214); //Timestamp: Current Time to be taken
 			pstmt.execute();
+			response.sendRedirect("userland.html");
 		}catch(ClassNotFoundException e) {e.printStackTrace();}
 		catch(SQLException e) {e.printStackTrace();}
 		catch (Exception e) {e.printStackTrace();}
